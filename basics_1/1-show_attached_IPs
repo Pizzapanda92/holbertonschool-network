@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Script to show the attached IPs of the current machine
+# Install net tools for ifconfig command. "sudo apt-get install net-tools"
+ifconfig | grep -oP '(?<=inet\s)\d+(\.\d+){3}'
