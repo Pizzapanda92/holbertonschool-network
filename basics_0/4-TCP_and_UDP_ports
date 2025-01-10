@@ -2,4 +2,10 @@
 # Displays listening ports. Includes listening sockets
 # + as the PID and name of the program to which each socket belongs.
 
-netstat -l --program
+echo "Active Internet connections (only servers)"
+if command -v netstat &> /dev/null; then
+    sudo netstat -tulnp
+else
+    echo "netstat not found. Using ss instead."
+    sudo ss -tulnp
+fi
