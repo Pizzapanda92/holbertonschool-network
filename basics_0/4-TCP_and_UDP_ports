@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Ce script affiche les ports d'écoute TCP et UDP actifs
+
+netstat -l --program
