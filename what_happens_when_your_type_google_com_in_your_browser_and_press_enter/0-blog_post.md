@@ -86,7 +86,3 @@ The application server interacts with Google’s database to retrieve or manipul
 The process of accessing `https://www.google.com` is a seamless integration of technologies, ensuring speed, reliability, and security. Each component—DNS, TCP/IP, firewalls, SSL, load balancers, web servers, application servers, and databases—plays a critical role in delivering the webpage.
 
 ---
-
-### Author
-
-Feel free to contribute or suggest improvements to this documentation!
